@@ -1,0 +1,49 @@
+*{
+  transition: all 2s ease;
+}
+#container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:0 auto;
+  margin-top: 50px;
+}
+.icon {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(73, 1, 236, 0.84);
+  font-size: 25px;
+  cursor: pointer;
+  line-height: 50px;
+}
+.icon i{
+  text-align: center;
+  height: 100%;
+  line-height: 50px;
+  font-size: 25px;
+  float: right;
+  margin-right: 1%;
+  color: #fff;
+}
+.panel p{
+  font-size: 16px;
+  text-align: justify;
+  color: #fff;
+}
+*{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                 not supported by any browser */
+}
+.panel {
+  box-sizing: border-box;
+  background: rgba(73, 1, 236, 0.84);
+}
